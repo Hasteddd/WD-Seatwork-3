@@ -1,0 +1,171 @@
+/* Animation 1: Slide Up */
+.animation-1 {
+    background-color: #3498db;
+    animation: slideUp 1s ease-in-out;
+}
+
+.animation-1 .footer-content {
+    transform: translateY(100%);
+    transition: transform 1s ease-in-out;
+}
+
+.animation-1:hover .footer-content {
+    transform: translateY(0);
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.button-1 {
+    background-color: #f1c40f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    float: right;
+}
+
+/* Animation 2: Fade In */
+.animation-2 {
+    background-color: #f7dc6f;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.animation-2 .footer-content {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.animation-2:hover .footer-content {
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.button-2 {
+    background-color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Animation 3: Slide In */
+.animation-3 {
+    background-color: #9b59b6;
+    animation: slideIn 1s ease-in-out;
+}
+
+.animation-3 .footer-content {
+    transform: translateX(-100%);
+    transition: transform 1s ease-in-out;
+}
+
+.animation-3:hover .footer-content {
+    transform: translateX(0);
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.button-3 {
+    background-color: #e74c3c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 20px 0 0 0; /* Adjust margin to position the button */
+}
+
+/* Animation 4: Flip In */
+.animation-4 {
+    background-color: #2ecc71;
+    animation: flipIn 1s ease-in-out;
+}
+
+.animation-4 .footer-content {
+    transform: rotateY(90deg);
+    transition: transform 1s ease-in-out;
+}
+
+.animation-4:hover .footer-content {
+    transform: rotateY(0deg);
+}
+
+@keyframes flipIn {
+    0% {
+        transform: rotateY(90deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+.button-4 {
+    background-color: #8e44ad;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    text-align: center;
+}
+
+/* Animation 5: Zoom In */
+.animation-5 {
+    background-color: #95a5a6;
+    animation: zoomIn 1s ease-in-out;
+}
+
+.animation-5 .footer-content {
+    transform: scale(0.5);
+    transition: transform 1s ease-in-out;
+}
+
+.animation-5:hover .footer-content {
+    transform: scale(1);
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button-5 {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: 10px;
+}

@@ -1,0 +1,105 @@
+.animated-header {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #f0f0f0; /* Default light gray background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.animated-header:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Darker shadow on hover */
+}
+
+.animated-header.animated-header-1 {
+    background-color: #3498db; /* Blue background color */
+}
+
+.animated-header.animated-header-2 {
+    background-color: #e74c3c; /* Red background color */
+}
+
+.animated-header.animated-header-3 {
+    background-color: #2ecc71; /* Green background color */
+}
+
+.animated-header.animated-header-4 {
+    background-color: #f39c12; /* Orange background color */
+}
+
+.animated-header.animated-header-5 {
+    background-color: #9b59b6; /* Purple background color */
+}
+
+.animated-header img {
+    display: block;
+    width: 100px; /* Set the fixed width for all images */
+    height: 100px; /* Set the fixed height for all images */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 50%; /* Rounded shape for icon-like appearance */
+    transition: transform 0.3s ease;
+}
+
+.animated-header:hover img {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.animated-header .header-content {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    padding: 20px;
+    opacity: 0;
+    transition: bottom 0.5s ease, opacity 0.5s ease;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.animated-header:hover .header-content {
+    bottom: 0;
+    opacity: 1; /* Fade in effect on hover */
+}
+
+/* Button Placements for animated-header-1 */
+.animated-header.animated-header-1 .button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 20px; /* Adjust left padding for spacing */
+}
+
+/* Button Placements for animated-header-2 */
+.animated-header.animated-header-2 .button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding for spacing */
+}
+
+/* Button Placements for animated-header-3 */
+.animated-header.animated-header-3 .button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 20px; /* Adjust right padding for spacing */
+}
+
+/* Button Placements for animated-header-4 */
+.animated-header.animated-header-4 .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Button Placements for animated-header-5 */
+.animated-header.animated-header-5 .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px; /* Adjust padding for spacing */
+}

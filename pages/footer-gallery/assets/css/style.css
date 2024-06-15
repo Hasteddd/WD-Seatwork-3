@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(135deg, #8c8e9a, #87fcfc);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    background-color: #ea7979; /* Light gray background */
+    padding: 20px; /* Padding around the content */
+}
+
+.center-link-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.center-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #533590; /* Purple */
+    color: #fff; /* White text */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.center-link:hover {
+    background-color: #7246a8; /* Lighter purple on hover */
+}
+
+.section-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: hidden; /* Clearfix for child elements */
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow */
+    background-color: #918f5e; /* Light gray background */
+}
+
+.footer img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.footer div {
+    flex: 1; /* Take remaining space */
+}
+
+.footer h3 {
+    margin-top: 0;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #0c0d0d;
+}
+
+.button {
+    padding: 8px 20px;
+    color: #cd6e6e; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Colors for Each Footer */
+.footer-1 .button {
+    background-color: #4c2a5f; /* Purple */
+}
+
+.footer-2 .button {
+    background-color: #1f5e68; /* Blue */
+}
+
+.footer-3 .button {
+    background-color: #7d6b00; /* Yellow */
+}
+
+.footer-4 .button {
+    background-color: #1f6a22; /* Green */
+}
+
+.footer-5 .button {
+    background-color: #792c56; /* Pink */
+}
+
+.button:hover {
+    filter: brightness(1.2); /* Brighten on hover */
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group input[type="email"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.form-group button {
+    padding: 8px 20px;
+    color: #dd6868; /* White text */
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #7246a8; /* Purple button */
+}
+
+.form-group button:hover {
+    filter: brightness(1.2); /* Brighten on hover */
+}
