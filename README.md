@@ -63,7 +63,7 @@ Welcome to my project! This repository contains various headers and footers for 
 
 ## My WakaTime Stats
 
-![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Hasteddd)
+![WakaTime stats]https://wakatime.com/@Hasteddd
 
 ## Features
 
