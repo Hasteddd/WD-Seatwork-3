@@ -63,8 +63,7 @@ Welcome to my project! This repository contains various headers and footers for 
 
 ## My WakaTime Stats
 
-Include statistics or insights about your project's development activity using WakaTime or any similar tool. If you're not using such tools, you can skip this section.
-
+![WakaTime stats].(https://wakatime.com/dashboard)?username=Hasteddd)
 ## Features
 
 - **Main Page Introduction**: Explore the main page of the project, providing an overview and purpose of the content.
