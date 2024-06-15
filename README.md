@@ -63,7 +63,12 @@ Welcome to my project! This repository contains various headers and footers for 
 
 ## My WakaTime Stats
 
-![WakaTime stats].(https://wakatime.com/dashboard)?username=Hasteddd)
+## My WakaTime Stats
+
+## My WakaTime Stats
+
+![WakaTime stats](https://github-Hastedd.app/api/wakatime?username=Hasteddd)
+
 ## Features
 
 - **Main Page Introduction**: Explore the main page of the project, providing an overview and purpose of the content.
