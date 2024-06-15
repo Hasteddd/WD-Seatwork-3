@@ -18,7 +18,7 @@
 
 <br />
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/Github-Git-Guide)
+
 
 ---
 
@@ -60,10 +60,6 @@
 # My Project
 
 Welcome to my project! This repository contains various headers and footers for use in web development projects.
-
-## My WakaTime Stats
-
-## My WakaTime Stats
 
 ## My WakaTime Stats
 
